@@ -19,7 +19,6 @@ import StandardCard from "../shared/StandardCard";
 import SplitOptionButtons from "./SplitOptionButtons";
 import { Transactions, Options } from "../../shared/types";
 import SplitMessageModal from "./SplitMessageModal";
-import { useNavigate } from "react-router-dom";
 
 type ActivityData = {
   activityTitle: string;
