@@ -6,17 +6,17 @@ const Hero = () => {
   const navigate = useNavigate();
   return (
     <>
-      <p className="text-5xl text-left mt-8 font-bold ml-8">B-Splitz</p>
+      <p className="text-5xl text-left mt-8 font-bold ml-6">B-Splitz</p>
 
       <section className="h-fit space-y-8 items-center justify-center mt-10 mx-12">
         <div>
-          <h1 className="mt-10 mb-2 text-4xl font-semibold text-center lg:text-6xl lg:mb-4  lg:mx-80">
+          <h1 className="mt-20 mb-2 text-4xl font-semibold text-center lg:text-6xl lg:mb-4  lg:mx-80">
             Split transactions with ease
           </h1>
           <p className="text-2xl text-center text-gray-600 mx-20">
             Simplify outing expenses.
           </p>
-          <div className="mt-10 text-center ">
+          <div className="mt-5 text-center ">
             <Button onClick={() => navigate("signup")}>Start Splitting</Button>
           </div>
         </div>
