@@ -10,7 +10,7 @@ const Hero = () => {
 
       <section className="h-fit space-y-8 items-center justify-center mt-10 mx-12">
         <div>
-          <h1 className="mt-5 mb-2 text-4xl font-semibold text-center lg:text-6xl lg:mb-4  lg:mx-80">
+          <h1 className="mt-10 mb-2 text-4xl font-semibold text-center lg:text-6xl lg:mb-4  lg:mx-80">
             Split transactions with ease
           </h1>
           <p className="text-2xl text-center text-gray-600 mx-20">
