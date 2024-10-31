@@ -6,7 +6,7 @@ const Hero = () => {
   const navigate = useNavigate();
   return (
     <>
-      <p className="text-4xl text-left mt-8 font-bold ml-12">B-Splitz</p>
+      <p className="text-8xl text-left mt-8 font-bold ml-12">B-Splitz</p>
 
       <section className="h-fit space-y-8 items-center justify-center mt-10 mx-12">
         <div>
