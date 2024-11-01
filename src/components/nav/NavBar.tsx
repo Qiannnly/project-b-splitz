@@ -4,7 +4,6 @@ import { useUserContext } from "../../context/UserContext";
 import { NavBarItems } from "./NavBarItems";
 import { MenuIcon } from "lucide-react";
 import { Button } from "../ui/button";
-import piggyBankImage from "../../assets/piggyBank.png";
 
 const NavBar = () => {
   const { logOut, user } = useUserContext();
