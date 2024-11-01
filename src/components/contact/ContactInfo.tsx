@@ -129,16 +129,15 @@ const ContactInfo = () => {
 
   return (
     <>
-      <div className="lg:mx-80 ">
-        <div className="mx-20 mb-9 mt-8 ">
+      <div className="justify-center items-center">
+        <div className="mb-9 mt-8 mx-20 md:mx-80">
           <SelectInput
             options={groups}
             onChange={setSelectedGroup}
             text="Groups"
           />
         </div>
-
-        <div className="px-10 space-y-9 lg:flex justify-center items-center lg:space-y-0 lg:rounded-lg gap-5 lg:p-4">
+        <div className="justify-center items-center m-5 space-y-8 h-1/2 md:flex md:mx-36 md:space-y-0 md:gap-10">
           <StandardCard
             title={`${
               selectedGroup ? "Edit Contacts" : "Create Group and Add Contacts"
