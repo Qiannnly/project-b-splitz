@@ -33,7 +33,7 @@ const SignUp = () => {
     <AuthCard
       title="Register Account"
       footerLabel="Already have an account?"
-      footerSpan="Sign In!"
+      footerSpan="Sign In"
     >
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-9">

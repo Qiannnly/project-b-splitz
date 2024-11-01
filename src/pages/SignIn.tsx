@@ -38,7 +38,7 @@ const SignIn = () => {
     <AuthCard
       title="Welcome Back to B-Splitz"
       footerLabel="Do not have an account?"
-      footerSpan="Sign Up!"
+      footerSpan="Sign Up"
     >
       <Form {...form}>
         <form onSubmit={form.handleSubmit(onSubmit)} className="space-y-6">
