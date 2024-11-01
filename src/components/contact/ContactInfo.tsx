@@ -129,7 +129,7 @@ const ContactInfo = () => {
 
   return (
     <>
-      <div className="justify-center items-center overflow-hidden">
+      <div className="justify-center items-center">
         <div className="mb-9 mt-8 mx-20 md:mx-80">
           <SelectInput
             options={groups}
