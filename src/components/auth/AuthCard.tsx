@@ -27,7 +27,7 @@ const AuthCard = ({ title, children, footerLabel, footerSpan }: CardProps) => {
         <CardFooter className="flex gap-2 items-center justify-center">
           <CardDescription>{footerLabel}</CardDescription>
           <Link
-            to={`${footerSpan === "Sign Up!" ? "/signup" : "/signin"}`}
+            to={`${footerSpan === "Sign Up" ? "/signup" : "/signin"}`}
             className="text-sm underline"
           >
             {footerSpan}
