@@ -6,7 +6,7 @@ const Contact = () => {
   return (
     <>
       <Layout>
-        <Header header="Contacts" />
+        <Header header="Groups" />
         <GroupInfo />
       </Layout>
     </>
