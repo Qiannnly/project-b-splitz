@@ -2,10 +2,11 @@ import { useEffect, useState } from "react";
 import StandardCard from "../shared/StandardCard";
 import { useUserContext } from "../../context/UserContext";
 import { useNavigate } from "react-router-dom";
-import { deleteUser } from "firebase/auth";
 import ProfileInput from "./ProfileInput";
-import { Button } from "../ui/button";
+
 import { CircleUserIcon, Lock, Mail } from "lucide-react";
+import { deleteUser } from "firebase/auth";
+import { Button } from "../ui/button";
 
 type UserProfile = {
   userName: string | null;
@@ -49,7 +50,7 @@ const ProfileInfo = () => {
           )}
           <ProfileInput Icon={Lock} value={"********"} />
           <div className="text-center mt-14">
-            <Button variant="link" onClick={handleDelete}>
+            <Button onClick={handleDelete} variant="link">
               Delete account
             </Button>
           </div>
