@@ -346,7 +346,6 @@ const DashboardInfo = () => {
         <div>
           <div>
             <div className=" justify-center items-center m-5 space-y-8 h-1/2 md:flex md:mx-36 md:space-y-0 md:gap-10">
-              {/* <div className="px-10 space-y-9 lg:flex justify-center items-center lg:space-y-0 lg:rounded-lg gap-5 lg:p-4"> */}
               <StandardCard
                 title={
                   activityData.activityStatus

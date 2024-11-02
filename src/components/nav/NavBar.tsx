@@ -15,7 +15,7 @@ const NavBar = () => {
       <nav className="w-full pt-2 pb-2 top-0 fixed text-black lg:pt-0 border-b-2 border-b-gray-300  bg-white">
         <div className="flex justify-between mb-5 px-5 lg:px-8 items-center lg:mb-0">
           <div
-            className="text-3xl lg:text-5xl w-3/6 pt-5 lg:pt-3 z-10 font-bold"
+            className="text-3xl lg:text-5xl w-2/6 pt-5 lg:pt-3 z-10 font-bold"
             onClick={() => navigate("/dashboard")}
           >
             B-Splitz
