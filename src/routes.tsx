@@ -33,7 +33,7 @@ const router = createBrowserRouter([
         errorElement: <Error />,
       },
       {
-        path: "/contact",
+        path: "/groups",
         element: <Contact />,
         errorElement: <Error />,
       },
