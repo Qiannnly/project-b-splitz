@@ -4,8 +4,8 @@ export const NavBarItems = [
     path: "/dashboard",
   },
   {
-    name: "Contact",
-    path: "/contact",
+    name: "Groups",
+    path: "/groups",
   },
   {
     name: "Profile",
