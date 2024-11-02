@@ -8,7 +8,7 @@ type InputProps = {
 const ProfileInput = ({ Icon, value }: InputProps) => {
   return (
     <>
-      <div className="flex items-center justify-center gap-4 my-6">
+      <div className="flex items-center justify-center gap-4 mt-2 mb-6">
         {Icon && <Icon size={"32px"} className="pt-1" />}
         <Input defaultValue={value || undefined} />
       </div>
