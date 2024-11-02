@@ -9,7 +9,7 @@ type CardProps = {
 const ProfileCard = ({ title, children }: CardProps) => {
   return (
     <>
-      <Card className="w-[400px] mx-auto">
+      <Card className="md:w-1/3">
         <CardHeader>
           <CardTitle>{title}</CardTitle>
         </CardHeader>
