@@ -1,13 +1,13 @@
 import Layout from "../layout/Layout";
 import Header from "../components/header/Header";
-import ContactInfo from "../components/contact/ContactInfo";
+import GroupInfo from "../components/group/GroupInfo";
 
 const Contact = () => {
   return (
     <>
       <Layout>
         <Header header="Contacts" />
-        <ContactInfo />
+        <GroupInfo />
       </Layout>
     </>
   );
