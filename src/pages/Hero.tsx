@@ -10,16 +10,14 @@ const Hero = () => {
         <img
           src={piggyBankImage}
           alt="piggy-bank-icon"
-          className="h-16 w-18 mt-6 "
+          className="h-12 w-18 mt-6"
         />
 
-        <p className="tracking-tight text-5xl text-left mt-8 font-bold ">
-          B-Splitz
-        </p>
+        <p className="tracking-tight text-3xl mt-8 font-bold ">B-Splitz</p>
       </div>
-      <section className="h-fit space-y-8 items-center justify-center mt-10 mx-12">
+      <section className="flex h-fit space-y-8 items-center justify-center mt-10 mx-12">
         <div>
-          <h1 className="tracking-tight mt-24 mb-2 text-4xl font-semibold text-center lg:text-6xl lg:mb-4  lg:mx-80">
+          <h1 className="tracking-tighter mt-24 mb-2 text-4xl font-bold text-center lg:text-6xl lg:mb-4  lg:mx-80">
             Split transactions with ease
           </h1>
           <p className="text-2xl text-center text-gray-600 mx-20">
