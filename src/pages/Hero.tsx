@@ -23,7 +23,7 @@ const Hero = () => {
           <p className="text-2xl text-center text-gray-600 mx-20">
             Simplify outing expenses.
           </p>
-          <div className="mt-5 text-center ">
+          <div className="mt-10 text-center ">
             <Button onClick={() => navigate("signup")}>Start Splitting</Button>
           </div>
         </div>
