@@ -53,7 +53,7 @@ const NavBar = () => {
             </div>
           </div>
           <div
-            className="mt-5 cursor-pointer z-10 lg:hidden"
+            className="mt-5 cursor-pointer z-10 md:hidden"
             onClick={() => setOpen(!open)}
           >
             <MenuIcon size={"36px"} />

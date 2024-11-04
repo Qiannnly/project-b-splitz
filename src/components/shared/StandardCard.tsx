@@ -11,7 +11,7 @@ const StandardCard = ({ title, children }: CardProps) => {
     <>
       <Card className="md:w-1/3 md:h-72">
         <CardHeader>
-          <CardTitle className="text-xl lg:text-2xl">{title}</CardTitle>
+          <CardTitle className="text-xl md:text-2xl">{title}</CardTitle>
         </CardHeader>
         <CardContent>{children}</CardContent>
       </Card>
