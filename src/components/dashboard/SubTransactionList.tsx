@@ -14,7 +14,7 @@ const SubTransactionList = ({
 }: SubTransactionListProps) => {
   return (
     <>
-      <div className="overflow-y-scroll max-h-64 ">
+      <div className="overflow-y-scroll max-h-20">
         {subTransactionList.map((element) => (
           <div key={element.id} className="grid grid-cols-3">
             <div className="text-sm">{element.item}</div>

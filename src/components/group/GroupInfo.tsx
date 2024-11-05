@@ -137,6 +137,7 @@ const GroupInfo = () => {
             text="Groups"
           />
         </div>
+        {/* <div className="justify-center items-center m-5 space-y-8 h-1/2 md:flex md:mx-36 md:space-y-0 md:gap-10"> */}
         <div className="justify-center items-center m-5 space-y-8 h-1/2 md:flex md:mx-36 md:space-y-0 md:gap-10">
           <StandardCard
             title={`${

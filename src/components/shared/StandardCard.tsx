@@ -9,7 +9,7 @@ interface CardProps {
 const StandardCard = ({ title, children }: CardProps) => {
   return (
     <>
-      <Card className="md:w-1/3 md:h-72">
+      <Card className="w-3/3 h-[400px] md:w-1/3">
         <CardHeader>
           <CardTitle className="text-xl md:text-2xl">{title}</CardTitle>
         </CardHeader>
